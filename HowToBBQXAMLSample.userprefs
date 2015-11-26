@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="HowToBBQXAMLSample/HowToBBQXAMLSample.iOS/HowToBBQXAMLSample.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HowToBBQXAMLSample/HowToBBQXAMLSample/ViewModels/BBQRecipesViewModel.cs">
+    <Files>
+      <File FileName="HowToBBQXAMLSample/HowToBBQXAMLSample/Views/BBQRecipesPage.xaml" Line="21" Column="9" />
+      <File FileName="HowToBBQXAMLSample/HowToBBQXAMLSample/obj/Debug/HowToBBQXAMLSample.Views.BBQRecipesPage.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="HowToBBQXAMLSample/HowToBBQXAMLSample/Views/AspectImageCell.cs" Line="1" Column="1" />
+      <File FileName="HowToBBQXAMLSample/HowToBBQXAMLSample/ViewModels/BBQRecipesViewModel.cs" Line="1" Column="1" />
+      <File FileName="HowToBBQXAMLSample/HowToBBQXAMLSample/Views/BBQRecipesPage.xaml.cs" Line="8" Column="26" />
+      <File FileName="HowToBBQXAMLSample/HowToBBQXAMLSample.Droid/Properties/AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="HowToBBQXAMLSample/HowToBBQXAMLSample/Views/DetailsPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

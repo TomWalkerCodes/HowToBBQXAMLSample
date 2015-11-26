@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="HowToBBQXAMLSample.Views.BBQRecipesPage"
+              xmlns:local="clr-namespace:HowToBBQXAMLSample.Views;assembly=HowToBBQXAMLSample"
+              xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             Title="BBQ Recipes">
+
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition  Width="*" />
+      <ColumnDefinition  Width="*" />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+      <RowDefinition />
+    </Grid.RowDefinitions>
+
+    <ListView Grid.Column="0" Grid.ColumnSpan="2"  x:Name="list" ItemsSource="{Binding Recipes}" ItemTapped="OnItemSelected">
+      <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <StackLayout Orientation="Horizontal" Padding="20,0,0,0">
+                <Image HeightRequest="44"
+                       WidthRequest="44"
+                       Source="{Binding ImageSource}"/>
+                <StackLayout Padding="10" Spacing="5">
+                  <Label Text="{Binding Name}"
+                         Style="{DynamicResource ListItemTextStyle}"/>
+    
+                </StackLayout>
+              </StackLayout>
+            </ViewCell>
+          </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </Grid>
+</ContentPage>
